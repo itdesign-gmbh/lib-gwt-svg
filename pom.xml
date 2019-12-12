@@ -7,7 +7,7 @@
 	</parent>
 	<artifactId>lib-gwt-svg</artifactId>
 	<packaging>jar</packaging>
-	<version>0.5.15-SNAPSHOT</version>
+	<version>0.5.16-itdesign</version>
 	<name>lib-gwt-svg</name>
 	<description>A GWT library to access the SVG functionalities of web browsers</description>
 	<url>http://www.vectomatic.org/libs/lib-gwt-svg</url>
@@ -55,6 +55,10 @@
 		</resources>
 	</build>
 	<distributionManagement>
-		<downloadUrl>http://www.vectomatic.org/libs/lib-gwt-svg</downloadUrl>
+		 <repository>
+			<id>github</id>
+ 	    	<name>GitHub itdesign-gmbh Apache Maven Packages</name>
+ 	    	<url>https://maven.pkg.github.com/itdesign-gmbh</url>
+		<repository>
 	</distributionManagement>
 </project>
